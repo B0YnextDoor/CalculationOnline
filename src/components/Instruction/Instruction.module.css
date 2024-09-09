@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  gap: 5%;
+  padding: 20px 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  background: radial-gradient(
+    124.93% 861.73% at -11.11% -40.43%,
+    #150aa3 4.22%,
+    rgba(0, 10, 250, 0.56) 100%
+  );
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  width: 25%;
+  max-width: 300px;
+  /* Лучше использовать максимальную ширину для большей адаптивности */
+  height: auto;
+  /* Используем автоматическую высоту */
+  padding: 31px 42px;
+  /* Убираем нижний отступ */
+  margin-bottom: 20px;
+  /* Вертикальный отступ между элементами */
+  border-radius: 33px;
+  border-radius: 33px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container > div > div > h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.container > div > p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1350px) {
+  .container {
+    gap: 0;
+  }
+}
+
+/* Адаптивность для меньших экранов */
+@media only screen and (max-width: 1200px) {
+  .container > div {
+    width: 30%;
+    height: auto;
+    padding: 20px 30px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container > div {
+    width: 40%;
+    padding: 20px 20px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container > div {
+    width: 50%;
+    padding: 20px 15px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 45px 25px 45px 25px;
+  }
+  .container > div {
+    width: 100%;
+    padding: 20px;
+    font-size: 12px;
+  }
+}

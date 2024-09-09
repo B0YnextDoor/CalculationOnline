@@ -1,0 +1,99 @@
+
+
+.namecount {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.71);
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 5%;
+}
+
+.infoel {
+  background-color: white;
+  box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 100%;
+  gap: 5%;
+  padding: 12px;
+}
+
+.infoel > div {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.infoel > div > h2 {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.infoel > div > h1 {
+  font-family: "Montserrat";
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.infoel > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.infoel > div > div > p {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.infoel > div > div > span {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .namecount {
+    margin-left: 15px;
+    font-size: 26px;
+  }
+  .infoel {
+    width: 95%;
+    flex-direction: column;
+  }
+  .infoel > img {
+    width: 277.25px;
+    height: 127.22px;
+  }
+  .infoel > div > h2 {
+    font-size: 26px;
+    margin: 0;
+  }
+  .infoel > div > h1 {
+    font-size: 23px;
+  }
+  .infoel > div > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .infoel > div > div > span {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+}

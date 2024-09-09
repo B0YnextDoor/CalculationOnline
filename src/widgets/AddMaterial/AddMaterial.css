@@ -1,0 +1,77 @@
+
+.name {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 0.71);
+  margin-bottom: 20px;
+}
+
+.addinpt {
+  width: 50%;
+  height: 26px;
+  padding: 7.26px 120.04px 6.74px 10.96px;
+  border-radius: 9.69px;
+  border: 1.21px solid rgba(10, 43, 163, 1);
+}
+
+label {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.adddibtn {
+  cursor: pointer;
+  border: none;
+  border-radius: 29px;
+  width: 260px;
+  height: 35px;
+  background: transparent;
+  box-shadow: 0px 0px 15.899999618530273px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+
+  margin-bottom: 10px;
+}
+
+.pricebtn {
+
+  color: rgba(55, 46, 153, 1);
+  background: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+  font-family: "Tilda Sans VF";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 50%;
+  height: 61px;
+  padding: 10px 22px 10px 22px;
+}
+
+.pricebtn.add {
+  background: rgba(10, 43, 163, 1);
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .name {
+    font-size: 25px;
+  }
+  label {
+    font-size: 18px;
+  }
+}

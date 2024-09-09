@@ -1,0 +1,132 @@
+/* Основные стили */
+.footer {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .info {
+    padding: 10px;
+    /* width: 95%; */
+    gap: 20px;
+    /* Отступы на планшетных и более крупных устройствах */
+  }
+}
+
+@media (min-width: 1024px) {
+  .info {
+    padding: 2%;
+    width: 95%;
+    /* Отступы на устройствах с широким экраном */
+  }
+}
+.info > h1 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.blist > button {
+  border: none;
+
+  text-decoration: none;
+  background: transparent;
+  padding: 0.5em 2em;
+  /* Используем em для относительных размеров */
+  font-size: 1em;
+  /* Используем em для относительных размеров */
+  font-weight: 600;
+}
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* padding: 10%; */
+}
+
+.connect > h4 {
+  margin: 0;
+}
+
+.connect > span {
+  color: rgba(135, 135, 135, 1);
+}
+
+.buttons {
+  display: flex;
+  padding: 0 4px 0 4px;
+  gap: 13px;
+}
+
+.buttons > button {
+  border: none;
+  flex-wrap: wrap;
+  display: flex;
+  text-decoration: none;
+  background: transparent;
+  padding: 0.5em 2em;
+  /* Используем em для относительных размеров */
+  font-size: 0.5em;
+  /* Используем em для относительных размеров */
+  font-weight: 600;
+}
+.footer > span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: rgba(135, 135, 135, 1);
+}
+
+/* Медиа-запросы для адаптивности */
+@media only screen and (max-width: 768px) {
+  .blist {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .connect,
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: flex-start;
+    padding: 10px 0 10px 20px;
+  }
+
+  .info > div > img {
+    width: 120px;
+    height: 100px;
+  }
+
+  .connect > h4 {
+    font-size: 32px;
+  }
+
+  .connect > span {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .info {
+    align-content: center;
+  }
+}

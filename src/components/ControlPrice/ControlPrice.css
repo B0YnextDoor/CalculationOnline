@@ -1,0 +1,68 @@
+.pricecont {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.pricecont > button {
+  border: none;
+  border-radius: 29px;
+  width: 260px;
+  height: 35px;
+  background: transparent;
+  box-shadow: 0px 0px 15.899999618530273px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: rgba(0, 160, 35, 1);
+  margin-bottom: 20px;
+}
+
+.pricebox {
+  box-shadow: 0px 0px 15.899999618530273px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  border-radius: 29px;
+  display: flex;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.pricebox > div > h1 {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: rgba(10, 43, 163, 1);
+}
+
+.pricebox > div > h5 {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.pricebox > div > p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.pricebox > div > p > span {
+  margin: 0;
+  font-weight: 500;
+  color: rgba(10, 43, 163, 1);
+}

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+.AuthTitle {
+    color: black ;
+    text-align: center;
+    /* font-family: Raleway; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+
+    /* 67.2px */
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper {
+    min-height: 600px;
+    min-width: 600px;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 5%;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper {
+        min-height: 600px;
+        min-width: 300px;
+        align-items: center;
+        border-radius: 20px;
+        padding-top: 5%;
+    }
+
+}

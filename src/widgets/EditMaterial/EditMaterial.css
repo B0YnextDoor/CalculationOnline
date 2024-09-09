@@ -1,0 +1,87 @@
+
+.editpricebox {
+  width: 96%;
+  border-radius: 29px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.editpricebox > div > h1 {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: rgba(10, 43, 163, 1);
+}
+
+.editpricebox > div > h5 {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  font-family: Montserrat;
+}
+
+.editipt {
+  width: 30px;
+  height: 15px;
+  padding: 7.26px 120.04px 6.74px 10.96px;
+  border-radius: 9.69px;
+  border: 1.21px solid rgba(10, 43, 163, 1);
+}
+
+.editpricebox > div > div {
+  margin: 10px 0 10px 0;
+}
+
+.editpricebox > div > div > span {
+  margin: 0;
+  font-weight: 500;
+  color: rgba(10, 43, 163, 1);
+}
+
+.editbtns {
+  justify-content: "flex-end";
+}
+
+.editbtn {
+  cursor: pointer;
+  border: none;
+  color: rgba(55, 46, 153, 1);
+  background: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 155.25px;
+  height: 39.46px;
+  padding: 6.47px 14.23px 6.47px 14.23px;
+  border-radius: 8.41px;
+  font-family: "Tilda Sans VF";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.editbtn.save {
+  background: rgba(10, 43, 163, 1);
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .editpricebox {
+    flex-direction: column;
+  }
+  .editbtns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .editbtn,
+  .editbtn.save {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}

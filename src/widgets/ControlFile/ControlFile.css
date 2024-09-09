@@ -1,0 +1,43 @@
+.contbtn {
+  /* border: none; */
+  color: rgba(55, 46, 153, 1);
+  text-align: center;
+  max-width: 248px;
+  width: 40%;
+  max-height: 61px;
+  height: 100%;
+  padding: 10px 22px 10px 22px;
+  font-family: "Tilda Sans VF";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fileipt {
+  height: 31px;
+  border-radius: 9.69px;
+  border: 1.21px solid rgba(10, 43, 163, 1);
+  background: transparent;
+  outline: "none";
+  margin: 0px 5px 0 5px;
+}
+
+.fileipt:focus {
+  outline: none;
+}
+
+.filecontrol {
+  font-size: 37px;
+}
+
+@media only screen and (max-width: 900px) {
+  .filecontrol {
+    font-size: 25px;
+  }
+  .filebtns {
+    flex-wrap: wrap;
+  }
+}
